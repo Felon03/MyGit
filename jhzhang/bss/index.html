@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>公交自行车系统</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<nav class="navbar navbar-default">
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<nav class="link-effect-2" id="link-effect-2"> 
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="http://www.jhzhang.cn"><span data-hover="网站首页">网站首页</span></a></li>
+						</ul>
+					</nav>
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+			<div class="banner-info">
+				<h2>公交自行车系统</h2>
+				<p>只为便捷出行！</p>
+				<div class="more">
+					<a class="hvr-shutter-in-vertical" data-toggle="modal" href="./app/bike0.41.apk">安卓APP下载<span class="glyphicon glyphicon-arrow-right"></span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+
+<!-- footer -->
+	<div class="copy-right">
+		<div class="container">
+			<p>COPYRIGHT &copy 2015-2016 Jianhui Zhang</p>
+			<p>Created by Zhi Li</p>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+
+</body>
+</html>
